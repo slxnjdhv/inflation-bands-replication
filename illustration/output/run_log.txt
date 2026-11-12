@@ -1,0 +1,78 @@
+=== DATA ===
+Old base (2012=100) General: 2013-01 to 2025-12 (n=156)
+Old base (2012=100) CFPI   : 2013-01 to 2025-12 (n=156)
+New base (2024=100) General: 2025-01 to 2026-09 (n=21)
+New base (2024=100) Food group (01.1): 2026-01 to 2026-09 (n=9)
+Official back series General: 2013-01 to 2024-12 (n=144)
+Status flags != 'F' (General/CFPI): 2020-05 gen:F*; 2020-04 food:F*; 2020-04 gen:F*
+Check: y-o-y computed from 2012-base indices vs published: max |diff| General 0.005 pp, CFPI 0.009 pp
+Check: official back series vs old x 0.5267: max |diff| = 0.050 index points (back series is published to 1-2 decimals)
+Check: geometric-mean ratio new/old over 2025 = 0.5267 (MoSPI LF 0.5267)
+Check: 2026 y-o-y from 2024-base indices vs published: max |diff| 0.010 pp
+2026 headline y-o-y: official new-basket vs cross-base (new 2026 / linked old 2025), pp:
+   2026-01: official  2.73  cross-base  2.54  diff -0.20
+   2026-02: official  3.21  cross-base  3.14  diff -0.07
+   2026-03: official  3.40  cross-base  3.67  diff +0.27
+   2026-04: official  3.48  cross-base  3.63  diff +0.14
+   2026-05: official  3.94  cross-base  4.19  diff +0.25
+   2026-06: official  4.38  cross-base  4.61  diff +0.23
+   2026-07: official  4.45  cross-base  4.52  diff +0.06
+   2026-08: official  4.82  cross-base  4.80  diff -0.02
+   2026-09: official  5.54  cross-base  5.52  diff -0.02
+Headline inflation series: 2014-01 to 2026-09 (n=153)
+Food inflation series (CFPI to 2025-12, new-base Food group from 2026-01): 2014-01 to 2026-09
+
+=== TARGET: headline ===
+OOS point forecasts 2016-01..2026-09; evaluation 2017-01..2026-09 (n=117)
+AR lag order chosen by BIC over evaluation sample: min 1, median 2, max 3
+Elastic net non-zero coefficients: min 0, median 10, max 22
+RMSE AR: All 0.755, R1 0.610, R2 1.044, R3 0.740, R4 0.500, Shock 0.650, Normal 0.783
+RMSE EN: All 0.758, R1 0.659, R2 0.991, R3 0.757, R4 0.433, Shock 0.644, Normal 0.790
+
+=== TARGET: food ===
+OOS point forecasts 2016-01..2025-12; evaluation 2017-01..2025-12 (n=108)
+AR lag order chosen by BIC over evaluation sample: min 2, median 2, max 3
+Elastic net non-zero coefficients: min 0, median 8, max 24
+RMSE AR: All 1.741, R1 1.335, R2 2.237, R3 1.766, Shock 1.536, Normal 1.796
+RMSE EN: All 1.721, R1 1.508, R2 2.128, R3 1.670, Shock 1.365, Normal 1.810
+
+=== FOOD-SHOCK INDICATOR ===
+Shock months in headline evaluation sample: 27 of 117
+
+=== KEY RESULTS (headline, coverage by regime) ===
+AR | Gaussian: All 0.846 (n=117, miss=18, p=0.063); R1 0.868 (n=38, miss=5, p=0.425); R2 0.727 (n=22, miss=6, p=0.018); R3 0.875 (n=48, miss=6, p=0.476); R4 0.889 (n=9, miss=1, p=1.000); Shock 0.889 (n=27, miss=3, p=0.748); Normal 0.833 (n=90, miss=15, p=0.050)
+      width 2.069, IS 3.539, LR_uc p 0.070, LR_ind p 0.412, LR_cc p 0.138
+AR | SCP W=36: All 0.915 (n=117, miss=10, p=0.757); R1 0.895 (n=38, miss=4, p=0.789); R2 0.818 (n=22, miss=4, p=0.270); R3 0.958 (n=48, miss=2, p=0.231); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.911 (n=90, miss=8, p=0.861)
+      width 2.844, IS 3.719, LR_uc p 0.592, LR_ind p 0.873, LR_cc p 0.855
+AR | ACI g=0.005 W=36: All 0.915 (n=117, miss=10, p=0.757); R1 0.895 (n=38, miss=4, p=0.789); R2 0.818 (n=22, miss=4, p=0.270); R3 0.958 (n=48, miss=2, p=0.231); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.911 (n=90, miss=8, p=0.861)
+      width 2.847, IS 3.722, LR_uc p 0.592, LR_ind p 0.873, LR_cc p 0.855
+AR | ACI g=0.02 W=36: All 0.923 (n=117, miss=9, p=0.536); R1 0.895 (n=38, miss=4, p=0.789); R2 0.864 (n=22, miss=3, p=0.478); R3 0.958 (n=48, miss=2, p=0.231); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.922 (n=90, miss=7, p=0.599)
+      width 2.799, IS 3.660, LR_uc p 0.388, LR_ind p 0.218, LR_cc p 0.323
+AR | RC-SCP W=36: All 0.915 (n=117, miss=10, p=0.757); R1 0.895 (n=38, miss=4, p=0.789); R2 0.818 (n=22, miss=4, p=0.270); R3 0.958 (n=48, miss=2, p=0.231); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.889 (n=27, miss=3, p=0.748); Normal 0.922 (n=90, miss=7, p=0.599)
+      width 2.835, IS 3.669, LR_uc p 0.592, LR_ind p 0.873, LR_cc p 0.855
+AR | SCP W=60: All 0.915 (n=117, miss=10, p=0.757); R1 0.895 (n=38, miss=4, p=0.789); R2 0.773 (n=22, miss=5, p=0.062); R3 0.979 (n=48, miss=1, p=0.087); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.911 (n=90, miss=8, p=0.861)
+      width 2.506, IS 3.511, LR_uc p 0.592, LR_ind p 0.237, LR_cc p 0.430
+AR | ACI g=0.005 W=60: All 0.915 (n=117, miss=10, p=0.757); R1 0.895 (n=38, miss=4, p=0.789); R2 0.773 (n=22, miss=5, p=0.062); R3 0.979 (n=48, miss=1, p=0.087); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.911 (n=90, miss=8, p=0.861)
+      width 2.658, IS 3.578, LR_uc p 0.592, LR_ind p 0.237, LR_cc p 0.430
+AR | ACI g=0.02 W=60: All 0.923 (n=117, miss=9, p=0.536); R1 0.895 (n=38, miss=4, p=0.789); R2 0.818 (n=22, miss=4, p=0.270); R3 0.979 (n=48, miss=1, p=0.087); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.922 (n=90, miss=7, p=0.599)
+      width 2.766, IS 3.603, LR_uc p 0.388, LR_ind p 0.710, LR_cc p 0.643
+AR | RC-SCP W=60: All 0.897 (n=117, miss=12, p=0.878); R1 0.895 (n=38, miss=4, p=0.789); R2 0.773 (n=22, miss=5, p=0.062); R3 0.938 (n=48, miss=3, p=0.627); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.889 (n=27, miss=3, p=0.748); Normal 0.900 (n=90, miss=9, p=1.000)
+      width 2.532, IS 3.594, LR_uc p 0.927, LR_ind p 0.477, LR_cc p 0.773
+EN | Gaussian: All 0.838 (n=117, miss=19, p=0.030); R1 0.868 (n=38, miss=5, p=0.425); R2 0.682 (n=22, miss=7, p=0.004); R3 0.875 (n=48, miss=6, p=0.476); R4 0.889 (n=9, miss=1, p=1.000); Shock 0.815 (n=27, miss=5, p=0.185); Normal 0.844 (n=90, miss=14, p=0.110)
+      width 2.036, IS 3.337, LR_uc p 0.037, LR_ind p 0.134, LR_cc p 0.037
+EN | SCP W=36: All 0.932 (n=117, miss=8, p=0.353); R1 0.947 (n=38, miss=2, p=0.584); R2 0.818 (n=22, miss=4, p=0.270); R3 0.958 (n=48, miss=2, p=0.231); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.963 (n=27, miss=1, p=0.515); Normal 0.922 (n=90, miss=7, p=0.599)
+      width 2.786, IS 3.410, LR_uc p 0.229, LR_ind p 0.309, LR_cc p 0.289
+EN | ACI g=0.005 W=36: All 0.923 (n=117, miss=9, p=0.536); R1 0.947 (n=38, miss=2, p=0.584); R2 0.818 (n=22, miss=4, p=0.270); R3 0.938 (n=48, miss=3, p=0.627); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.963 (n=27, miss=1, p=0.515); Normal 0.911 (n=90, miss=8, p=0.861)
+      width 2.735, IS 3.445, LR_uc p 0.388, LR_ind p 0.247, LR_cc p 0.352
+EN | ACI g=0.02 W=36: All 0.915 (n=117, miss=10, p=0.757); R1 0.921 (n=38, miss=3, p=1.000); R2 0.818 (n=22, miss=4, p=0.270); R3 0.938 (n=48, miss=3, p=0.627); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.911 (n=90, miss=8, p=0.861)
+      width 2.753, IS 3.464, LR_uc p 0.592, LR_ind p 0.193, LR_cc p 0.372
+EN | RC-SCP W=36: All 0.915 (n=117, miss=10, p=0.757); R1 0.921 (n=38, miss=3, p=1.000); R2 0.909 (n=22, miss=2, p=1.000); R3 0.896 (n=48, miss=5, p=0.811); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.852 (n=27, miss=4, p=0.340); Normal 0.933 (n=90, miss=6, p=0.379)
+      width 2.873, IS 3.465, LR_uc p 0.592, LR_ind p 0.193, LR_cc p 0.372
+EN | SCP W=60: All 0.932 (n=117, miss=8, p=0.353); R1 0.974 (n=38, miss=1, p=0.175); R2 0.864 (n=22, miss=3, p=0.478); R3 0.917 (n=48, miss=4, p=1.000); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.933 (n=90, miss=6, p=0.379)
+      width 2.734, IS 3.338, LR_uc p 0.229, LR_ind p 0.309, LR_cc p 0.289
+EN | ACI g=0.005 W=60: All 0.932 (n=117, miss=8, p=0.353); R1 0.974 (n=38, miss=1, p=0.175); R2 0.864 (n=22, miss=3, p=0.478); R3 0.917 (n=48, miss=4, p=1.000); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.926 (n=27, miss=2, p=1.000); Normal 0.933 (n=90, miss=6, p=0.379)
+      width 2.703, IS 3.307, LR_uc p 0.229, LR_ind p 0.309, LR_cc p 0.289
+EN | ACI g=0.02 W=60: All 0.915 (n=117, miss=10, p=0.757); R1 0.921 (n=38, miss=3, p=1.000); R2 0.864 (n=22, miss=3, p=0.478); R3 0.917 (n=48, miss=4, p=1.000); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.852 (n=27, miss=4, p=0.340); Normal 0.933 (n=90, miss=6, p=0.379)
+      width 2.682, IS 3.311, LR_uc p 0.592, LR_ind p 0.193, LR_cc p 0.372
+EN | RC-SCP W=60: All 0.915 (n=117, miss=10, p=0.757); R1 0.921 (n=38, miss=3, p=1.000); R2 0.909 (n=22, miss=2, p=1.000); R3 0.896 (n=48, miss=5, p=0.811); R4 1.000 (n=9, miss=0, p=1.000); Shock 0.852 (n=27, miss=4, p=0.340); Normal 0.933 (n=90, miss=6, p=0.379)
+      width 2.766, IS 3.339, LR_uc p 0.592, LR_ind p 0.193, LR_cc p 0.372

@@ -1,0 +1,95 @@
+forecaster  nominal      method  IS_Gaussian_insample  IS_W36  width_W36  cov_W36  lower_than_Gaussian_W36  IS_W60  width_W60  cov_W60  lower_than_Gaussian_W60  width_Gaussian
+        AR      0.9    EB-Gauss                 3.539   3.565      2.455    0.897                    False   3.493      2.417    0.897                     True           2.069
+        AR      0.9 EB-Gauss-sd                 3.539   3.545      2.450    0.897                    False   3.491      2.421    0.897                     True           2.069
+        AR      0.9         SCP                 3.539   3.719      2.844    0.915                    False   3.511      2.506    0.915                     True           2.069
+        AR      0.9 ACI g=0.005                 3.539   3.722      2.847    0.915                    False   3.578      2.658    0.915                    False           2.069
+        AR      0.9  ACI g=0.02                 3.539   3.660      2.799    0.923                    False   3.603      2.766    0.923                    False           2.069
+        AR      0.9      RC-SCP                 3.539   3.669      2.835    0.915                    False   3.594      2.532    0.897                    False           2.069
+        EN      0.9    EB-Gauss                 3.337   3.412      2.632    0.906                    False   3.266      2.649    0.932                     True           2.036
+        EN      0.9 EB-Gauss-sd                 3.337   3.385      2.548    0.897                    False   3.251      2.603    0.915                     True           2.036
+        EN      0.9         SCP                 3.337   3.410      2.786    0.932                    False   3.338      2.734    0.932                    False           2.036
+        EN      0.9 ACI g=0.005                 3.337   3.445      2.735    0.923                    False   3.307      2.703    0.932                     True           2.036
+        EN      0.9  ACI g=0.02                 3.337   3.464      2.753    0.915                    False   3.311      2.682    0.915                     True           2.036
+        EN      0.9      RC-SCP                 3.337   3.465      2.873    0.915                    False   3.339      2.766    0.915                    False           2.036
+forecaster  nominal      method  IS_Gaussian_insample  IS_W36  IS_W60
+        AR      0.7    EB-Gauss                 2.384   2.426   2.399
+        AR      0.7 EB-Gauss-sd                 2.384   2.423   2.400
+        AR      0.7         SCP                 2.384   2.434   2.375
+        AR      0.7 ACI g=0.005                 2.384   2.435   2.381
+        AR      0.7  ACI g=0.02                 2.384   2.463   2.406
+        AR      0.7      RC-SCP                 2.384   2.392   2.398
+        AR      0.5    EB-Gauss                 1.853   1.877   1.869
+        AR      0.5 EB-Gauss-sd                 1.853   1.875   1.869
+        AR      0.5         SCP                 1.853   1.887   1.876
+        AR      0.5 ACI g=0.005                 1.853   1.890   1.878
+        AR      0.5  ACI g=0.02                 1.853   1.896   1.883
+        AR      0.5      RC-SCP                 1.853   1.895   1.889
+        EN      0.7    EB-Gauss                 2.411   2.438   2.385
+        EN      0.7 EB-Gauss-sd                 2.411   2.424   2.386
+        EN      0.7         SCP                 2.411   2.457   2.396
+        EN      0.7 ACI g=0.005                 2.411   2.463   2.398
+        EN      0.7  ACI g=0.02                 2.411   2.463   2.388
+        EN      0.7      RC-SCP                 2.411   2.453   2.451
+        EN      0.5    EB-Gauss                 1.927   1.957   1.940
+        EN      0.5 EB-Gauss-sd                 1.927   1.952   1.940
+        EN      0.5         SCP                 1.927   1.986   1.967
+        EN      0.5 ACI g=0.005                 1.927   1.987   1.967
+        EN      0.5  ACI g=0.02                 1.927   1.980   1.951
+        EN      0.5      RC-SCP                 1.927   1.983   1.978
+AR: R2 RMSE s2 = 1.044, other months s1 = 0.670, ratio 1.557, p = 0.188
+   Prop.1(a) limit for R2 with this ratio: 0.760; floor 2Phi(z s1/s2)-1 = 0.709
+   in-sample residual sd used by the Gaussian interval: mean 0.634 in R2, 0.628 elsewhere
+   sd_in / s2 (R2) = 0.608;  sd_in / s1 (other) = 0.937
+   implied coverage if errors were N(0, s_k^2): R2 0.681, other months 0.871
+   observed Gaussian coverage: R2 0.727 (16/22), other months 0.874
+   P(X <= 16) for X ~ Bin(22, 0.760) = 0.441; Bin(22, 0.709): 0.653
+   95% Clopper-Pearson CI for R2 coverage: [0.498, 0.893]
+   out-of-sample-error Gaussian (W=36) R2: mean scale 0.756, coverage 0.773
+EN: R2 RMSE s2 = 0.991, other months s1 = 0.694, ratio 1.429, p = 0.188
+   Prop.1(a) limit for R2 with this ratio: 0.789; floor 2Phi(z s1/s2)-1 = 0.750
+   in-sample residual sd used by the Gaussian interval: mean 0.604 in R2, 0.622 elsewhere
+   sd_in / s2 (R2) = 0.610;  sd_in / s1 (other) = 0.897
+   implied coverage if errors were N(0, s_k^2): R2 0.681, other months 0.853
+   observed Gaussian coverage: R2 0.682 (15/22), other months 0.874
+   P(X <= 15) for X ~ Bin(22, 0.789) = 0.166; Bin(22, 0.750): 0.299
+   95% Clopper-Pearson CI for R2 coverage: [0.451, 0.861]
+   out-of-sample-error Gaussian (W=36) R2: mean scale 0.680, coverage 0.727
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Coverage} & & & \multicolumn{2}{c}{DM ($p$) vs Gaussian} \\
+\cmidrule(lr){2-3}\cmidrule(l){6-7}
+Interval & All & R2 & Width & IS & in-sample & OOS errors \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Autoregression, calibration window $W=36$}}\\
+Gaussian, in-sample & 0.85 & 0.73$^{*}$ & 2.07 & 3.54 & -- & -- \\
+Gaussian, OOS errors & 0.90 & 0.77 & 2.46 & 3.57 & 0.23 (0.81) & -- \\
+Split conformal & 0.91 & 0.82 & 2.84 & 3.72 & 0.91 (0.37) & 1.47 (0.14) \\
+ACI, $\gamma=0.005$ & 0.91 & 0.82 & 2.85 & 3.72 & 0.92 (0.36) & 1.50 (0.14) \\
+ACI, $\gamma=0.02$ & 0.92 & 0.86 & 2.80 & 3.66 & 0.57 (0.57) & 0.72 (0.47) \\
+Regime-cond.\ SCP & 0.91 & 0.82 & 2.84 & 3.67 & 0.65 (0.52) & 0.97 (0.33) \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Elastic net, calibration window $W=36$}}\\
+Gaussian, in-sample & 0.84$^{*}$ & 0.68$^{*}$ & 2.04 & 3.34 & -- & -- \\
+Gaussian, OOS errors & 0.91 & 0.73$^{*}$ & 2.63 & 3.41 & 0.50 (0.61) & -- \\
+Split conformal & 0.93 & 0.82 & 2.79 & 3.41 & 0.39 (0.70) & $-$0.03 (0.98) \\
+ACI, $\gamma=0.005$ & 0.92 & 0.82 & 2.73 & 3.44 & 0.62 (0.53) & 0.50 (0.61) \\
+ACI, $\gamma=0.02$ & 0.91 & 0.82 & 2.75 & 3.46 & 0.75 (0.46) & 0.74 (0.46) \\
+Regime-cond.\ SCP & 0.91 & 0.91 & 2.87 & 3.47 & 0.59 (0.56) & 0.46 (0.65) \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Autoregression, calibration window $W=60$}}\\
+Gaussian, in-sample & 0.85 & 0.73$^{*}$ & 2.07 & 3.54 & -- & -- \\
+Gaussian, OOS errors & 0.90 & 0.77 & 2.42 & 3.49 & $-$0.44 (0.66) & -- \\
+Split conformal & 0.91 & 0.77 & 2.51 & 3.51 & $-$0.23 (0.82) & 0.52 (0.60) \\
+ACI, $\gamma=0.005$ & 0.91 & 0.77 & 2.66 & 3.58 & 0.25 (0.80) & 1.27 (0.21) \\
+ACI, $\gamma=0.02$ & 0.92 & 0.82 & 2.77 & 3.60 & 0.34 (0.73) & 1.07 (0.29) \\
+Regime-cond.\ SCP & 0.90 & 0.77 & 2.53 & 3.59 & 0.46 (0.64) & 1.68 (0.10) \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Elastic net, calibration window $W=60$}}\\
+Gaussian, in-sample & 0.84$^{*}$ & 0.68$^{*}$ & 2.04 & 3.34 & -- & -- \\
+Gaussian, OOS errors & 0.93 & 0.86 & 2.65 & 3.27 & $-$0.40 (0.69) & -- \\
+Split conformal & 0.93 & 0.86 & 2.73 & 3.34 & 0.00 (1.00) & 1.53 (0.13) \\
+ACI, $\gamma=0.005$ & 0.93 & 0.86 & 2.70 & 3.31 & $-$0.16 (0.87) & 0.92 (0.36) \\
+ACI, $\gamma=0.02$ & 0.91 & 0.86 & 2.68 & 3.31 & $-$0.15 (0.88) & 1.09 (0.28) \\
+Regime-cond.\ SCP & 0.91 & 0.91 & 2.77 & 3.34 & 0.01 (0.99) & 1.03 (0.31) \\
+\bottomrule
+\end{tabular}

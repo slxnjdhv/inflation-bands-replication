@@ -1,0 +1,5 @@
+forecaster,regime,n_bad,p,kappa_sd,kappa_sd_90ci,kappa_mae,predicted_cov_bad,observed_SCP_cov_bad,misses_bad
+AR,Food shock,27,0.231,0.84,"[0.60, 1.10]",0.832,0.941,0.926,2
+AR,COVID R2,22,0.188,1.565,"[1.07, 2.02]",1.579,0.758,0.818,4
+EN,Food shock,27,0.231,0.826,"[0.61, 1.04]",0.828,0.945,0.963,1
+EN,COVID R2,22,0.188,1.329,"[0.89, 1.75]",1.589,0.813,0.818,4

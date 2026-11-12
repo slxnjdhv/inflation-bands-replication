@@ -1,0 +1,37 @@
+\begin{table}[htbp]
+\caption{Coverage of nominal 90 per cent intervals at horizons of three and six months, headline CPI inflation, April 2018 to September 2026 ($n=102$)}\label{tab:horizons}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Interval & All & R2 & R3 & Width & IS & $p$ \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Autoregression, 3 months ahead (RMSE 1.32)}}\\
+Gaussian, in-sample & 0.84 & 0.91 & 0.85 & 3.67 & 5.43 & 0.067 \\
+Gaussian, OOS errors & 0.90 & 0.95 & 0.85 & 4.37 & 5.40 & 1.000 \\
+Split conformal & 0.92 & 0.95 & 0.90 & 4.68 & 5.67 & 0.619 \\
+Regime-cond.\ SCP & 0.91 & 0.95 & 0.90 & 4.64 & 5.81 & 0.869 \\
+\addlinespace
+\multicolumn{7}{@{}l}{\emph{Elastic net, 3 months ahead (RMSE 1.32)}}\\
+Gaussian, in-sample & 0.75$^{*}$ & 0.68$^{*}$ & 0.73$^{*}$ & 3.27 & 5.81 & 0.000 \\
+Gaussian, OOS errors & 0.89 & 0.82 & 0.85 & 4.84 & 5.49 & 0.741 \\
+Split conformal & 0.93 & 0.95 & 0.88 & 5.23 & 5.55 & 0.407 \\
+Regime-cond.\ SCP & 0.97$^{*}$ & 1.00 & 0.94 & 5.82 & 6.02 & 0.012 \\
+\addlinespace
+\multicolumn{7}{@{}l}{\emph{Autoregression, 6 months ahead (RMSE 1.71)}}\\
+Gaussian, in-sample & 0.74$^{*}$ & 0.59$^{*}$ & 0.75$^{*}$ & 4.30 & 8.24 & 0.000 \\
+Gaussian, OOS errors & 0.86 & 0.86 & 0.81 & 5.82 & 7.97 & 0.244 \\
+Split conformal & 0.89 & 0.95 & 0.83 & 6.40 & 7.89 & 0.741 \\
+Regime-cond.\ SCP & 0.86 & 0.82 & 0.83 & 6.52 & 8.14 & 0.244 \\
+\addlinespace
+\multicolumn{7}{@{}l}{\emph{Elastic net, 6 months ahead (RMSE 1.83)}}\\
+Gaussian, in-sample & 0.69$^{*}$ & 0.50$^{*}$ & 0.71$^{*}$ & 4.24 & 8.93 & 0.000 \\
+Gaussian, OOS errors & 0.89 & 0.91 & 0.85 & 6.16 & 8.02 & 0.741 \\
+Split conformal & 0.93 & 1.00 & 0.85 & 6.59 & 8.04 & 0.407 \\
+Regime-cond.\ SCP & 0.90 & 0.86 & 0.85 & 6.59 & 8.31 & 1.000 \\
+\botrule
+\end{tabular}
+\footnotetext{Direct $h$-step forecasts from lags $h$ to $h+11$ of headline and food inflation, re-estimated monthly on targets observed at the forecast origin. Intervals: Gaussian with the in-sample residual standard deviation; Gaussian with the root mean squared error of the previous 36 out-of-sample errors observable at the origin; rolling split conformal (SCP) on the same errors; and SCP calibrated within the food-shock state at the origin. The common sample starts in April 2018, the first month in which every horizon has at least 12 observed errors; R2 (March 2020 to December 2021) has $n=22$, R3 (January 2022 to December 2025) $n=48$. Width and IS (mean interval score) in percentage points; $p$, exact two-sided binomial test of a 10 per cent miss rate over the full sample. Consecutive multi-step errors overlap, so the $p$-values are optimistic.}
+\footnotetext{$^{*}$Exact binomial test rejects at the 5 per cent level (unadjusted).}
+\footnotetext{Source: own calculations from MoSPI CPI data.}
+\end{table}

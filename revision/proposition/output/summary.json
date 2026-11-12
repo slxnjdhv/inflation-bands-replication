@@ -1,0 +1,14 @@
+{
+  "alpha": 0.1,
+  "n_min": 9,
+  "n_for_80pct_power": {
+    "0.7": 25,
+    "0.8": 83,
+    "0.85": 313
+  },
+  "shock_spells": {
+    "shock_months": 27,
+    "shock_spells": 8,
+    "mean_spell": 3.38
+  }
+}

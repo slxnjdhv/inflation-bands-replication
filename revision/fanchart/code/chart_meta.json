@@ -1,0 +1,283 @@
+{
+ "_doc": "Per-chart metadata. y_axis: [y_pt_at_vmin, vmin, y_pt_at_vmax, vmax] in PDF points (y grows downwards). Source of y_pt: 'axis' = end points of the vertical value-axis line, which coincide with the end tick marks; 'labels' = vertical centres of the extractable tick-label text. Axis min/max values read from the rendered chart (data_raw/render/fan_*.png). last_q: calendar quarter of the right-most band-polygon vertex cluster, i.e. the last quarter on the chart's x axis (clusters are mapped to consecutive quarters from the right). x_max: ignore polygon vertices to the right of this x (other charts on the page / flat extension to the plot edge). pubq: calendar quarter of the publication date. In the Apr and Oct 2019 charts the filled band polygons place the last quarter's vertex at the right plot edge (x\u2248292), not at the regular quarterly spacing; the outline paths confirm the y-values are the last quarter's.",
+ "2016_Apr": {
+  "pub": "2016-04-05",
+  "pubq": "2016Q2",
+  "y_axis": [
+   662.94,
+   0,
+   548.27,
+   12
+  ],
+  "y_src": "labels",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2018Q1"
+ },
+ "2016_Oct": {
+  "pub": "2016-10-04",
+  "pubq": "2016Q4",
+  "y_axis": [
+   630.55,
+   0,
+   489.37,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2018Q1"
+ },
+ "2017_Apr": {
+  "pub": "2017-04-06",
+  "pubq": "2017Q2",
+  "y_axis": [
+   683.28,
+   0,
+   542.35,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2019Q1"
+ },
+ "2017_Oct": {
+  "pub": "2017-10-04",
+  "pubq": "2017Q4",
+  "y_axis": [
+   233.41,
+   0,
+   92.48,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2019Q1"
+ },
+ "2018_Apr": {
+  "pub": "2018-04-05",
+  "pubq": "2018Q2",
+  "y_axis": [
+   657.74,
+   0,
+   521.82,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2020Q1"
+ },
+ "2018_Oct": {
+  "pub": "2018-10-05",
+  "pubq": "2018Q4",
+  "y_axis": [
+   603.42,
+   0,
+   505.33,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2020Q1"
+ },
+ "2019_Apr": {
+  "pub": "2019-04-04",
+  "pubq": "2019Q2",
+  "y_axis": [
+   216.0,
+   0,
+   111.88,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2021Q1"
+ },
+ "2019_Oct": {
+  "pub": "2019-10-04",
+  "pubq": "2019Q4",
+  "y_axis": [
+   216.02,
+   0,
+   111.94,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2021Q1"
+ },
+ "2020_Oct": {
+  "pub": "2020-10-09",
+  "pubq": "2020Q4",
+  "y_axis": [
+   219.37,
+   0,
+   117.59,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2022Q1"
+ },
+ "2021_Apr": {
+  "pub": "2021-04-07",
+  "pubq": "2021Q2",
+  "y_axis": [
+   223.54,
+   0,
+   111.68,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2023Q1"
+ },
+ "2021_Oct": {
+  "pub": "2021-10-08",
+  "pubq": "2021Q4",
+  "y_axis": [
+   536.73,
+   0,
+   443.3,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2023Q1"
+ },
+ "2022_Apr": {
+  "pub": "2022-04-08",
+  "pubq": "2022Q2",
+  "y_axis": [
+   224.66,
+   0,
+   112.76,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 300,
+  "x_min": 0,
+  "last_q": "2024Q1"
+ },
+ "2022_Sep": {
+  "pub": "2022-09-30",
+  "pubq": "2022Q3",
+  "y_axis": [
+   202.67,
+   0,
+   105.83,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2024Q1"
+ },
+ "2023_Apr": {
+  "pub": "2023-04-06",
+  "pubq": "2023Q2",
+  "y_axis": [
+   210.2,
+   0,
+   112.6,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2025Q1"
+ },
+ "2023_Oct": {
+  "pub": "2023-10-06",
+  "pubq": "2023Q4",
+  "y_axis": [
+   589.88,
+   0,
+   492.2,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2025Q1"
+ },
+ "2024_Apr": {
+  "pub": "2024-04-05",
+  "pubq": "2024Q2",
+  "y_axis": [
+   230.7,
+   0,
+   112.6,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 300,
+  "x_min": 0,
+  "last_q": "2026Q1"
+ },
+ "2024_Oct": {
+  "pub": "2024-10-09",
+  "pubq": "2024Q4",
+  "y_axis": [
+   211.98,
+   0,
+   110.2,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2026Q1"
+ },
+ "2025_Oct": {
+  "pub": "2025-10-01",
+  "pubq": "2025Q4",
+  "y_axis": [
+   576.8,
+   0,
+   486.7,
+   10
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2027Q1"
+ },
+ "2026_Apr": {
+  "pub": "2026-04-08",
+  "pubq": "2026Q2",
+  "y_axis": [
+   601.1,
+   0,
+   514.0,
+   14
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2028Q1"
+ },
+ "2026_Oct": {
+  "pub": "2026-10-07",
+  "pubq": "2026Q4",
+  "y_axis": [
+   566.39,
+   0,
+   483.7,
+   12
+  ],
+  "y_src": "axis",
+  "x_max": 9999,
+  "x_min": 0,
+  "last_q": "2028Q1"
+ }
+}

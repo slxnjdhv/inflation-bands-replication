@@ -1,0 +1,144 @@
+MPR_2016_Apr.pdf 48 []
+  CI: The 2016-17:Q4 projections are placed in a 70 per cent confidence interval of 3.2 per cent to 7.
+  CI: 5: Inflation Persistence (Rolling regressi coefficients of CPI using a auto ve 84 moving window of width months) Univariate estimate of persistence along with 95 per cent confidence intervals. -0.
+  PROJ: Macroeconomic Outlook Headline CPI inflation is projected to moderate in 2016-17 to around 5 per cent while real GDP growth is projected to improve gradually to 7.
+
+MPR_2016_Oct.pdf 52 []
+
+MPR_2017_Apr.pdf 64 []
+  CI: 9 per cent in Q4:2017-18, with risks evenly balanced around this trajectory (the 50 per cent confidence interval for inflation in Q4:2017-18 is in a range of 3.4-6.
+  CI: 4 per cent and the 70 per cent confidence interval is in a range of 2.6-7.
+  PROJ: 1), RBI staff’s baseline path for headline CPI inflation is expected to take it from its current level of 3.
+  PROJ: Headline inflation is projected to increase during 2017-18, calling for close vigilance and readiness for an appropriate monetary policy response, if warranted.
+
+MPR_2017_Oct.pdf 78 []
+  CI: The 50 per cent and the 70 per cent conﬁ dence intervals for inﬂ ation in Q4:2017-18 are 3.3-6.
+  CI: The 50 per cent and the 70 per cent conﬁ dence intervals for Q4:2018-19 are 2.7-6.
+
+MPR_2018_Apr.pdf 84 [(14, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 14 I.6 Projection of CPI Inflation (y-o-y) drawings 37 images 0
+  fill colours [((0.942, 0.321, 0.322), 11), ((0.962, 0.585, 0.589), 3), ((0.983, 0.864, 0.861), 2), ((0.942, 0.32, 0.299), 1), ((0.962, 0.576, 0.566), 1), ((0.988, 0.845, 0.833), 1), ((0.989, 0.862, 0.863), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for inflation in Q4:2018-19 are 3.2-5.
+  CI: The 50 per cent and the 70 per cent confidence intervals for Q4:2019-20 are 3.0-6.
+  PROJ: Taking into account the initial conditions, signals from the forward looking surveys and estimates from structural and other models, CPI inflation is projected to pick up from 4.
+
+MPR_2018_Oct.pdf 84 [(13, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 13 I.6 Projection of CPI Inflation (y-o-y) drawings 61 images 0
+  fill colours [((0.939, 0.276, 0.281), 11), ((0.99, 0.865, 0.861), 3), ((0.962, 0.573, 0.575), 3), ((0.0, 0.681, 0.938), 2), ((0.001, 0.441, 0.725), 2), ((0.989, 0.859, 0.86), 1), ((0.939, 0.28, 0.288), 1), ((0.962, 0.579, 0.588), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2018-19 are 3.6-5.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Like-wise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the rangerepresentedby therespectiveshaded areas.
+  CI: The 50 per cent and the 70 per cent confidence intervals for Q4:2019-20 are 3.4-6.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Like-wise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be intherangerepresentedby therespectiveshaded areas.
+  PROJ: 4 Taking into account the initial conditions, signals from forward-looking surveys and estimates from structural and other models5, CPI inflation is projected to pick up from 3.
+  PROJ: Excluding the estimated impact of HRA for central government employees, CPI inflation is projected at 3.
+
+MPR_2019_Apr.pdf 90 []
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2019-20 are 2.5-5.
+  CI: The 50 per cent and the 70 per cent confidence intervals for Q4:2020-21 are 2.6-5.
+  PROJ: Headline CPI inflation is projected to move up from its recent lows as the favourable base effects dissipate but remain below the target of 4 per cent in 2019-20.
+  PROJ: 1), CPI inflation is projected to pick up from 2.
+  PROJ: 5 Conclusion To sum up, headline CPI inflation is expected to move up from its recent lows as the favourable base effects dissipate but is expected to remain below the target of 4 per cent.
+
+MPR_2019_Oct.pdf 88 []
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2019-20 are 2.7-4.
+  CI: Chapter I Macroeconomic Outlook 5 per cent confidence intervals for Q4:2020-21 are 2.5- 5.
+  PROJ: 3 Taking into account the initial conditions, the signals from forward-looking surveys and estimates from time-series and structural models, CPI inflation is projected at 3.
+  PROJ: 5 Conclusion Headline inflation is projected to remain below the medium-term target of 4 per cent over the rest of 2019-20 and the early months of 2020-21.
+  PROJ: On the whole, headline CPI inflation is expected to remain within the Reserve Bank’s target of 4.
+
+MPR_2020_Apr.pdf 102 []
+
+MPR_2020_Oct.pdf 100 [(15, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 15 I.6 Projection of CPI Inflation (y-o-y) drawings 29 images 0
+  fill colours [((1.0, 1.0, 1.0), 1), ((0.942, 0.32, 0.301), 1), ((0.988, 0.842, 0.831), 1), ((0.962, 0.578, 0.567), 1), ((0.987, 0.836, 0.825), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2020-21 are 3.2-5.
+  CI: The 50 per cent and the 70 per cent confidence intervals for Q4:2021-22 are 2.5-5.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Like-wise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Like-wise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: 20 30 40 50 60 70 4 5 6 7 8 9 10 11 12 Mar-16 Sep-16 Dec-16 May-17 Sep-17 Dec-17 May-18 Sep-18 Dec-18 May-19 Sept-19 Jan-20 May-20 Sep-20 Proportion of respondents (Per cent) Inﬂation rate (Per cent) Three months ahead (Median) One year ahead (Median) Three months ahead price increase more than the current rate (RHS) One year ahead price increase more than the current rate (RHS) 6 Monetary Policy Report October 2020 CPI inflation is projected at 6.
+
+MPR_2021_Apr.pdf 102 [(14, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 14 I.6 Projection of CPI Inflation (y-o-y) drawings 155 images 0
+  fill colours [((0.137, 0.122, 0.125), 128), ((0.938, 0.259, 0.139), 11), ((0.955, 0.496, 0.479), 3), ((0.979, 0.706, 0.609), 2), ((0.987, 0.83, 0.819), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2021-22 are 3.3-6.
+  CI: The 50 per cent and the 70 per cent confidence intervals for Q4:2022-23 are 2.9-6.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward-looking surveys and estimates from structural and other time-series models, CPI inflation is projected to average 5.
+
+MPR_2021_Oct.pdf 112 [(15, 'I.6', 'Projection of CPI Inﬂation (y-o-y)')]
+  page 15 I.6 Projection of CPI Inﬂation (y-o-y) drawings 394 images 0
+  fill colours [((0.137, 0.122, 0.125), 250), ((0.098, 0.439, 0.725), 18), ((0.937, 0.259, 0.137), 12), ((0.957, 0.498, 0.478), 3), ((0.98, 0.706, 0.608), 2)]
+  CI: The 50 per cent and the 70 per cent conﬁdence intervals for headline inﬂation in Q4:2021-22 are 4.4-7.
+  CI: The 50 per cent and the 70 per cent conﬁdence intervals for Q4:2022-23 are 2.7-6.
+
+MPR_2022_Apr.pdf 115 [(18, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 18 I.6 Projection of CPI Inflation (y-o-y) drawings 389 images 0
+  fill colours [((0.137, 0.122, 0.125), 344), ((0.045, 0.441, 0.725), 5), ((0.93, 0.111, 0.141), 4), ((1.0, 1.0, 1.0), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2022-23 are 3.4-6.
+  CI: The 50 per cent and the 70 per cent confidence intervals for Q4:2023-24 are 3.8-7.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward-looking surveys, estimates from structural and other time-series models, and crude oil (Indian basket) at US$ 100 per barrel in 2022-23, CPI inflation is projected to average 5.
+
+MPR_2022_Sep.pdf 105 [(17, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 17 I.6 Projection of CPI Inflation (y-o-y) drawings 157 images 4
+  fill colours [((0.137, 0.122, 0.125), 128), ((0.938, 0.263, 0.137), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2022-23 are 4.7-6.
+  CI: 2 per cent, with the 50 per cent and the 70 per cent confidence intervals at 3.5-7.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward- looking surveys and estimates from structural and other time-series models, CPI inflation is projected to average 6.
+  PROJ: In Q4:2023-24, CPI inflation is projected at 5.
+
+MPR_2023_Apr.pdf 101 [(15, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 15 I.6 Projection of CPI Inflation (y-o-y) drawings 232 images 0
+  fill colours [((0.137, 0.122, 0.125), 128), ((0.938, 0.259, 0.139), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2023-24 are 3.8-6.
+  CI: 4 per cent, with the 50 per cent and the 70 per cent confidence intervals at 3.0-5.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward-looking surveys and estimates from structural and other time- series models7, CPI inflation is projected to average 5.
+  PROJ: In Q4:2024-25, CPI inflation is projected at 4.
+  PROJ: Headline inflation is expected to moderate from its prevailing elevated levels and move below the upper tolerance band during 2023- 24.
+
+MPR_2023_Oct.pdf 103 [(15, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 15 I.6 Projection of CPI Inflation (y-o-y) drawings 366 images 0
+  fill colours [((0.137, 0.122, 0.125), 269), ((0.938, 0.259, 0.139), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2023-24 are 4.1–6.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: 3 per cent, with the 50 per cent and the 70 per cent confidence intervals at 3.0–5.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward- looking surveys and estimates from time-series and structural models5, CPI inflation is projected to average 5.
+  PROJ: In Q4:2024-25, CPI inflation is projected at 4.
+
+MPR_2024_Apr.pdf 108 [(18, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 18 I.6 Projection of CPI Inflation (y-o-y) drawings 49 images 0
+  fill colours [((0.942, 0.32, 0.299), 11), ((0.962, 0.576, 0.566), 5), ((0.983, 0.799, 0.787), 5), ((0.938, 0.259, 0.139), 1), ((0.938, 0.263, 0.137), 1)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2024-25 are 3.2–5.
+  CI: 0 per cent, with the 50 per cent and the 70 per cent confidence intervals at 2.7– 5.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respectiveshaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward-looking surveys and estimates from time-series and structural models6, CPI inflation is projected to average 4.
+  PROJ: In Q4:2025-26, CPI inflation is projected at 4.
+
+MPR_2024_Oct.pdf 108 [(16, 'I.6', 'Projection of CPI Inflation (y-o-y)')]
+  page 16 I.6 Projection of CPI Inflation (y-o-y) drawings 188 images 0
+  fill colours [((0.0, 0.0, 0.0), 121), ((0.942, 0.317, 0.326), 29), ((0.986, 0.831, 0.829), 13), ((0.963, 0.595, 0.604), 13), ((0.001, 0.002, 0.002), 7)]
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2024- 25 are 3.2-5.
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2025-26 are 2.8-5.
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: Taking into account the initial conditions, signals from forward-looking surveys and estimates from time-series and structural models6, CPI inflation is projected to average 4.
+
+MPR_2025_Oct.pdf 112 []
+  CI: The thick red shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick red shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2025-26 are 9 Chapter I Macroeconomic Outlook 9 Box I.1: The Effect of Credit Conditions on Monetary Policy The interest rate channel is central to the conduct of monetary policy under inflation targeting: the central bank influences the price of credit (interest rates) through its control over the price of bank reserves.
+  CI: The 50 per cent and the 70 per cent confidence intervals for headline inflation in Q4:2026-27 are 2.4-5.
+  CI: The thick green shaded area represents 50 per cent confidence interval, implying that there is 50 per cent probability that the actual outcome will be within the range given by the thick green shaded area. Likewise, for 70 per cent and 90 per cent confidence intervals, there is 70 per cent and 90 per cent probability, respectively, that the actual outcomes will be in the range represented by the respective shaded areas.
+  PROJ: series and structural models10, CPI inflation is projected to average 2.
+
+MPR_2026_Apr.pdf 118 []
+
+MPR_2026_Oct.pdf 110 []
+

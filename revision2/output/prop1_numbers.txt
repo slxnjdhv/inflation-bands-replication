@@ -1,0 +1,18 @@
+AR: R2 RMSE s2 = 1.044, other months s1 = 0.670, ratio 1.557, p = 0.188
+   Prop.1(a) limit for R2 with this ratio: 0.760; floor 2Phi(z s1/s2)-1 = 0.709
+   in-sample residual sd used by the Gaussian interval: mean 0.634 in R2, 0.628 elsewhere
+   sd_in / s2 (R2) = 0.608;  sd_in / s1 (other) = 0.937
+   implied coverage if errors were N(0, s_k^2): R2 0.681, other months 0.871
+   observed Gaussian coverage: R2 0.727 (16/22), other months 0.874
+   P(X <= 16) for X ~ Bin(22, 0.760) = 0.441; Bin(22, 0.709): 0.653
+   95% Clopper-Pearson CI for R2 coverage: [0.498, 0.893]
+   out-of-sample-error Gaussian (W=36) R2: mean scale 0.756, coverage 0.773
+EN: R2 RMSE s2 = 0.991, other months s1 = 0.694, ratio 1.429, p = 0.188
+   Prop.1(a) limit for R2 with this ratio: 0.789; floor 2Phi(z s1/s2)-1 = 0.750
+   in-sample residual sd used by the Gaussian interval: mean 0.604 in R2, 0.622 elsewhere
+   sd_in / s2 (R2) = 0.610;  sd_in / s1 (other) = 0.897
+   implied coverage if errors were N(0, s_k^2): R2 0.681, other months 0.853
+   observed Gaussian coverage: R2 0.682 (15/22), other months 0.874
+   P(X <= 15) for X ~ Bin(22, 0.789) = 0.166; Bin(22, 0.750): 0.299
+   95% Clopper-Pearson CI for R2 coverage: [0.451, 0.861]
+   out-of-sample-error Gaussian (W=36) R2: mean scale 0.680, coverage 0.727

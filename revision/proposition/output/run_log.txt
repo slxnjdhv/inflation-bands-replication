@@ -1,0 +1,64 @@
+alpha = 0.1; minimum group calibration size for a bounded interval: n_G >= 9
+
+Proposition 1: regime-2 coverage under marginal calibration (rows p, cols kappa)
+kappa  1.25   1.50   2.00   2.50   3.00   4.00   6.00   10.00
+p                                                            
+0.05   0.818  0.739  0.611  0.516  0.446  0.348  0.241  0.149
+0.10   0.823  0.751  0.634  0.547  0.480  0.387  0.280  0.183
+0.15   0.828  0.763  0.658  0.580  0.522  0.442  0.361  0.333
+0.20   0.834  0.775  0.682  0.617  0.571  0.519  0.500  0.500
+0.25   0.839  0.786  0.707  0.655  0.624  0.602  0.600  0.600
+0.30   0.844  0.797  0.730  0.692  0.674  0.667  0.667  0.667
+  limit as kappa -> inf, p = 0.05: 0.000; kappa = 1000 numeric: 0.002
+  limit as kappa -> inf, p = 0.1: 0.000; kappa = 1000 numeric: 0.003
+  limit as kappa -> inf, p = 0.2: 0.500; kappa = 1000 numeric: 0.500
+
+Proposition 3: coverage of true regime 2 when calibrating on a noisy label (p = 0.2)
+ kappa   p  e_fn   e_fp  cov_regime2  lower_bound  cov_regime1
+   2.0 0.2  0.00 0.0000       0.9000       0.9000       0.9000
+   2.0 0.2  0.05 0.0125       0.8798       0.8795       0.9051
+   2.0 0.2  0.10 0.0250       0.8601       0.8589       0.9100
+   2.0 0.2  0.20 0.0500       0.8227       0.8178       0.9193
+   2.0 0.2  0.30 0.0750       0.7878       0.7767       0.9281
+   3.0 0.2  0.00 0.0000       0.9000       0.9000       0.9000
+   3.0 0.2  0.05 0.0125       0.8712       0.8708       0.9072
+   3.0 0.2  0.10 0.0250       0.8430       0.8417       0.9142
+   3.0 0.2  0.20 0.0500       0.7891       0.7833       0.9277
+   3.0 0.2  0.30 0.0750       0.7387       0.7250       0.9403
+
+Power of the exact binomial (Kupiec) test at 5%, H0 miss rate 0.10
+true_cov   0.70   0.80   0.85
+n                            
+9         0.270  0.086  0.034
+12        0.507  0.205  0.092
+18        0.667  0.284  0.121
+24        0.771  0.344  0.139
+36        0.888  0.434  0.165
+48        0.943  0.500  0.174
+72        0.993  0.705  0.279
+100       0.999  0.808  0.328
+150       1.000  0.941  0.489
+200       1.000  0.982  0.609
+  smallest n with power >= 0.80: {0.7: 25, 0.8: 83, 0.85: 313}
+
+Monte Carlo, i.i.d. mixture (40,000 reps each)
+ marg_c1  marg_c2  mondrian_c1  mondrian_c2  mondrian_bounded_c1  mondrian_bounded_c2  marg_all  mondrian_unbounded_share  kappa    p   n  theory_c1  theory_c2  p_group_below_nmin
+   0.965    0.740        0.914        0.975                0.914                0.914     0.919                     0.145    2.0 0.20  36      0.954      0.682               0.716
+   0.983    0.661        0.915        0.973                0.915                0.904     0.920                     0.140    3.0 0.20  36      0.982      0.571               0.716
+   0.953    0.521        0.912        1.000                0.912                1.000     0.918                     0.082    3.0 0.08  36      0.938      0.466               0.998
+   0.978    0.589        0.902        0.918                0.902                0.918     0.901                     0.000    3.0 0.20 120      0.982      0.571               0.000
+
+Monte Carlo, stationary Markov-switching regime, rolling W = 36 (6,000 months each)
+ rolling_c1  rolling_c2  rc_c1  rc_c2  rc_fallback_share_regime2  kappa   p  persist  mean_spell  theory_c2
+      0.968       0.726  0.916  0.766                      0.736    2.0 0.2     0.00         1.0      0.682
+      0.958       0.770  0.917  0.827                      0.450    2.0 0.2     0.80         5.0      0.682
+      0.970       0.683  0.916  0.743                      0.504    3.0 0.2     0.80         5.0      0.571
+      0.938       0.800  0.918  0.837                      0.239    3.0 0.2     0.95        20.0      0.571
+
+Calibration to the Indian illustration (headline, SCP W = 36, 2017-01 to 2026-09)
+forecaster     regime  n_bad     p  kappa_sd kappa_sd_90ci  kappa_mae  predicted_cov_bad  observed_SCP_cov_bad  misses_bad
+        AR Food shock     27 0.231     0.840  [0.60, 1.10]      0.832              0.941                 0.926           2
+        AR   COVID R2     22 0.188     1.565  [1.07, 2.02]      1.579              0.758                 0.818           4
+        EN Food shock     27 0.231     0.826  [0.61, 1.04]      0.828              0.945                 0.963           1
+        EN   COVID R2     22 0.188     1.329  [0.89, 1.75]      1.589              0.813                 0.818           4
+  food-shock state in evaluation sample: {'shock_months': 27, 'shock_spells': 8, 'mean_spell': np.float64(3.38)}
